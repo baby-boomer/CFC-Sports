@@ -520,6 +520,7 @@ body {font-family: sans-serif;}
     .social-icons{
             list-style: none;
             display: flex;
+            width:20px;
             justify-content: center;
             align-items: center;
             gap: 2.5rem;
