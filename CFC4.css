@@ -520,22 +520,21 @@ body {font-family: sans-serif;}
     .social-icons{
             list-style: none;
             display: flex;
-            width:20px;
-            justify-content: center;
+            padding-left:36%;
+            padding-top: 2rem;
+            max-width: 25px;
             align-items: center;
             gap: 2.5rem;
-            margin: 0;
-            /* background-color: red; */
+            border-radius: 5px;
+     
      }
     .phone{
-        /* margin-top: 1em; */
         margin-bottom: 1rem;
-         /* background-color: rgb(178, 237, 178);  */
         }
     
     .whatsapp{
         margin-bottom: 8px;
-        /* background-color: yellow; */
+       
     }
 
     .in-touch h3{
