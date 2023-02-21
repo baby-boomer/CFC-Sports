@@ -1,4 +1,4 @@
-
+/* Revised social icon sizes at mobile query 515pm 21/2/2023 */
 
 /* Basic styling */
 
@@ -448,32 +448,32 @@
     }
     
     footer p{text-align: center;
-        margin-top: 4rem;
-        margin-bottom: 0;
+            margin-top: 2rem;
+            margin-bottom: 0;
       }
     
-    /*............................ RESPONSIVE ...........................*/
+
 
  /* -----------------------Mobile menu------------------- */
- .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:end; 
-    align-items: center;
-    max-width: 60%;
-   }
-
-.toggle  {order: 1;
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:end; 
+        align-items: center;
+        max-width: 60%;
     }
 
-.item.button  {order: 2;}
+    .toggle  {order: 1;
+        }
 
-.item {width: 100%;
-      text-align: center;
-      order: 3;
-      display: none;}
+    .item.button  {order: 2;}
 
-   .item.active {display: block;
+    .item {width: 100%;
+        text-align: center;
+        order: 3;
+        display: none;}
+
+    .item.active {display: block;
     }
        
 /* ---------------------Navbar Toggle---------------------- */
@@ -509,7 +509,7 @@
 .bars:after   {top: -5px;}
 
 /* ------------------------NAV BAR Tablet menu------------------------ */
-
+    /*............................ RESPONSIVE ...........................*/
 
 @media all and (min-width:468px)
 {
@@ -546,6 +546,10 @@
 
     .button.secondary a:hover {color: #ddd;
     }
+
+    .social-icons{
+    gap: 3rem;
+     }
  }
 
 
@@ -560,6 +564,10 @@
     .button {order: 2;}
     .menu li        {padding: 15px 10px;}
     .menu li.button {padding-right: 0;}
+    .social-icons{
+        gap: 4rem;
+    
+         }
     }
 
 /* From /\ .............NAVBAR........... Index html styles css  */
@@ -620,13 +628,44 @@
         p.large + .social-icons{
             margin-top: 3.5rem;
         }
+        .social-icons{
+            gap: 1rem;
     }
+         .footer p{
+            margin-top:0;
+            padding-top: 0;
+      }
+        .footer{
+            margin-top:0;
+    }
+       .phone{
+            font-size: 1rem;
+     }
+}
+
+  
     
     @media screen and (max-width: 660px){ 
         #gallery, .gallery1{ 
             grid-template-columns: 4fr;
-            gap: 2rem
+            gap: 2rem;
             }
+
+        .phone{
+            font-size: 1rem;
+         }
+
+        .social-icons{
+            gap: 2rem;
+         }
+        
     }
-    
- 
+/*     
+    @media screen and (min-width: 769px) and (max-width:1300px) {
+
+
+
+
+
+    @media screen and (min-width: 400px) and (max-width:768px) {
+    */
